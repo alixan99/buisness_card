@@ -54,4 +54,37 @@ table {
 
 a {
   text-decoration: none;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../source/fonts/Roboto-Regular.eot");
+  src: url("../source/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../source/fonts/Roboto-Roboto-Regular.woff") format("woff"), url("../source/fonts/Roboto-Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../source/fonts/Roboto-Medium.eot");
+  src: url("../source/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../source/fonts/Roboto-Medium.woff") format("woff"), url("../source/fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+.main-wrapper {
+  display: flex;
+}
+.main-wrapper .main-preview {
+  position: relative;
+}
+.main-wrapper .main-preview__title {
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  background-color: #121212;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 14px 0 14px 0;
 }/*# sourceMappingURL=styles.css.map */
