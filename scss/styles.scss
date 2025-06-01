@@ -1,1 +1,26 @@
 @import '_reset.scss';
+@import '__fonts.scss';
+
+.main {
+  &-wrapper {
+    display: flex;
+
+    .main-preview {
+      position: relative;
+      &__photo {
+      }
+      &__title {
+        font-family: Roboto-Regular, sans-serif;
+        font-size: 64px;
+        line-height: 75px;
+        text-align: center;
+        background-color: #121212;
+        color: #ffffff;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        padding: 14px 0 14px 0;
+      }
+    }
+  }
+}
