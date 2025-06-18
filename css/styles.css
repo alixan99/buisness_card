@@ -70,6 +70,10 @@ a {
   font-weight: 500;
   font-style: normal;
 }
+.main {
+  background: url(../source/images/background.png) center/cover;
+  backdrop-filter: blur(14px);
+}
 .main-wrapper {
   display: flex;
 }
@@ -87,4 +91,99 @@ a {
   bottom: 0px;
   width: 100%;
   padding: 14px 0 14px 0;
+}
+.main-wrapper .main-inner {
+  padding: 70px 142px 0 60px;
+}
+.main-wrapper .main-inner .profile {
+  max-width: 1090px;
+}
+.main-wrapper .main-inner .profile__name {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 48px;
+  color: #121212;
+  padding-bottom: 20px;
+}
+.main-wrapper .main-inner .profile__city {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 24px;
+  color: #121212;
+}
+.main-wrapper .main-inner .profile__network {
+  display: flex;
+  gap: 30px;
+  padding: 50px 0 50px 0;
+}
+.main-wrapper .main-inner .profile-skills__title {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 32px;
+  color: #121212;
+  padding-bottom: 20px;
+}
+.main-wrapper .main-inner .profile-skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.main-wrapper .main-inner .profile-skills__list-item {
+  background-color: #414141;
+  border-radius: 45px;
+  color: #ffffff;
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 32px;
+  padding: 14px 55px;
+}
+.main-wrapper .main-inner .profile-about {
+  padding-top: 50px;
+}
+.main-wrapper .main-inner .profile-about__title {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 32px;
+  color: #121212;
+}
+.main-wrapper .main-inner .profile-about__description {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 32px;
+  color: #121212;
+  text-indent: 30px;
+  padding-top: 20px;
+  line-height: 35px;
+}
+.main-wrapper .main-inner .feedback {
+  padding-top: 50px;
+}
+.main-wrapper .main-inner .feedback__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 0;
+  max-width: 701px;
+  justify-content: space-between;
+}
+.main-wrapper .main-inner .feedback__form .input {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 32px;
+  border-radius: 11px;
+  border: 1px solid #121212;
+  padding: 14px 0 14px 16px;
+}
+.main-wrapper .main-inner .feedback__form-email {
+  width: 49%;
+}
+.main-wrapper .main-inner .feedback__form-text {
+  width: 49%;
+}
+.main-wrapper .main-inner .feedback__form-button {
+  width: 100%;
+  text-decoration: none;
+  border: none;
+  background-color: #121212;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.main-wrapper .main-inner .feedback__form-button:hover {
+  background-color: #414141;
+}
+.main-wrapper .main-inner .feedback__form-button:active {
+  background-color: #1E1E1E;
 }/*# sourceMappingURL=styles.css.map */
